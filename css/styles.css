@@ -357,7 +357,7 @@ img {
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)
               ),
-              url(../images/Dark-bg-mob1x-min.jpg);
+              url(../images/Dark-bg.jpg);
             background-repeat: no-repeat;
             background-position: center;
             max-width: 320px;
@@ -375,7 +375,7 @@ img {
                   rgba(46, 47, 66, 0.7),
                   rgba(46, 47, 66, 0.7)
                 ),
-                url(../images/Dark-bg-mob2x-min.jpg);
+                url(../images/Dark-bg.jpg);
             }
           }
           
