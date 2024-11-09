@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
-    <header class="page-header">
+    <a class="page-header">
         <div class="container header-container">
         <nav class="header-nav">
             <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
@@ -40,8 +40,75 @@
                 <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        <button class="burger-btn" type="button">
+            <svg class="burger-icon" width="24" height="24">
+
+            <use href="./images/icons.svg#icon-icon-burger"></use>
+            
+        </svg>
+    </button>
+</div>
+<div class="mobile-menu" data-menu>
+    <div class="container mobile-menu-container">
+      <button type="button" class="mobile-menu-close" data-menu-close>
+        <svg class="modal-close-button" width="8" height="8">
+          <use href="./images/icons-modal.svg#icon-check"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav">
+        <a href="#">Studio</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contacts</a>
+      </nav>
+      <address class="contacts-mob">
+        <ul class="contacts-list-mob">
+          <li class="contacts-item-mob">
+            <a class="contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="contacts-item-mob">
+            <a class="contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <div class="soc-link-mob">
+        <ul class="social-links-mob">
+          <li class="social-item-mob">
+            <a class="link-mob" href="" target="_blank">
+              <svg class="icon-mob" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item-mob">
+            <a class="link-mob" href="" target="_blank">
+              <svg class="icon-mob" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item-mob">
+            <a class="link-mob" href="" target="_blank">
+              <svg class="icon-mob" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item-mob">
+            <a class="link-mob" href="" target="_blank">
+              <svg class="icon-mob" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    </header>
+  </div>
+</header>
   
     <main>
         <section class="hero">
@@ -116,7 +183,7 @@
     
                         <ul class="team-list-icon">
                             <li class="team-icon-item">
-                                <a class="taste-link-icon" href="">
+                                <a class="taste-link-icon" href="icon-link">
                                     <svg class="icon" width="16" height="16">
                                         <use href="./images/icons.svg#icon-instagram">
                                         </use>
