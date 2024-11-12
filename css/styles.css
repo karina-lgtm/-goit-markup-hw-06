@@ -133,6 +133,7 @@ img {
       display: flex;
       align-items: center;
       gap: 40px;
+     margin-right: auto;
     }
   
     .header-logo {
@@ -1351,7 +1352,7 @@ button.modal-open:focus > svg {
 }
 
 .backdrop{
-  
+
 }
 .privacy-link {
   color: #4d5ae5;
